@@ -46,25 +46,4 @@ Write a java program to simulate the following schedulers:
               􀁸 Quantum (14,0,0,8) -> ceil(25%) = ( 4,-,-,-) && ceil(50%) = ( 7,-,-,-)
               􀁸 Quantum (14+7,0,0,8) -> ceil(52%) = ( 0,0,0,2) && ceil(50%) = ( -,-,-,4)
               􀁸 Quantum (21,0,0,0) -> ceil(25%) = ( 6,-,-,-) && ceil(50%) = (11,-,-,-)
-              -------------------------------------------------------------------------
-              Program Input
-              -------------
-                􀂃 Number of processes
-                􀂃 Round robin Time Quantum
-                􀂃 Context switching
-                For Each Process you need to receive the following parameters from the user:
-                  􀂃 Process Name
-                  􀂃 Process Arrival Time
-                  􀂃 Process Burst Time
-                  􀂃 Process Priority
-                Program Output:
-                --------------
-                For each scheduler output the following
-                    􀂃 Processes execution order
-                    􀂃 Waiting Time for each process
-                    􀂃 Turnaround Time for each process
-                    􀂃 Average Waiting Time
-                    􀂃 Average Turnaround Time
-                    􀂃 Print all history update of quantum time for each process (AG Scheduling)
-                    􀁸 The assignment is submitted in group of max. 5 students and min. 4 students.
-                    􀁸 Late submission is not allowed
+        
