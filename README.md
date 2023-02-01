@@ -64,7 +64,7 @@ Write a java program to simulate the following schedulers:
                   􀂃 Process Priority
                 Program Output:
                 --------------
-                For each scheduler output the following:
+                For each scheduler output the following
                     􀂃 Processes execution order
                     􀂃 Waiting Time for each process
                     􀂃 Turnaround Time for each process
