@@ -26,24 +26,3 @@ Write a java program to simulate the following schedulers:
           iv. The running process didn’t use all of its quantum time because it’s no
               longer need that time and the job was completed (set it’s quantum
               time to zero).
-              Example :
-              Processes | Burst time | Arrival time | Priority | Quantum
-              P1              17           0            4           7
-              P2              6            2            7           9
-              P3              11           5            3           4
-              P4              4            15           6           6
-              ----------------------------------------------------------
-              Answer:
-              -------
-              􀁸 Quantum (7, 9, 4,6) -> ceil(25%) = ( 2,-,-,-) && ceil(50%) = ( 4,-,-,-)
-              􀁸 Quantum (7+3,9,4,6) -> ceil(25%) = ( -,3,-,-) && ceil(50%) = ( -,5,-,-)
-              􀁸 Quantum (10,9+3,4 ,6) -> ceil(25%) = ( -,-,1,-) && ceil(50%) = ( -,-,2,-)
-              􀁸 Quantum (10,12,4+2,6) -> ceil(25%) = ( -,3,-,-) && ceil(50%) = ( -,6,-,-)
-              􀁸 Quantum (10,0,6,6) -> ceil(25%) = ( 3,-,-,-) && ceil(50%) = ( 5,-,-,-)
-              􀁸 Quantum (10+4,0,6,6) -> ceil(25%) = ( -,-,2,-) && ceil(50%) = ( -,-,3,-)
-              􀁸 Quantum (14,0,6+3,6) -> ceil(25%) = ( -,-,-,2) && ceil(50%) = ( -,-,-,3)
-              􀁸 Quantum (14,0,9,6+2) -> ceil(25%) = ( -,-,3,-) && ceil(50%) = ( -,-,5,-)
-              􀁸 Quantum (14,0,0,8) -> ceil(25%) = ( 4,-,-,-) && ceil(50%) = ( 7,-,-,-)
-              􀁸 Quantum (14+7,0,0,8) -> ceil(52%) = ( 0,0,0,2) && ceil(50%) = ( -,-,-,4)
-              􀁸 Quantum (21,0,0,0) -> ceil(25%) = ( 6,-,-,-) && ceil(50%) = (11,-,-,-)
-        
